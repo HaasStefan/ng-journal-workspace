@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "cli": ["packages/cli/src/index.ts"]
+      "cli": ["packages/cli/src/index.ts"],
+      "enterprise-monorepo-pattern": [
+        "packages/enterprise-monorepo-pattern/src/index.ts"
+      ],
+      "utils": ["packages/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

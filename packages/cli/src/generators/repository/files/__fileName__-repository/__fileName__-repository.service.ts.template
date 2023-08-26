@@ -1,0 +1,16 @@
+import { Injectable } from '@angular/core';
+import { <%className%>AbstractRepository } from './<%fileName%>-abstract-repository.service';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class <%className%>Repository implements <%className%>AbstractRepository {
+    /**
+     * Implemnt they parents abstract methods here
+     *
+     * Example:
+     * public get<%className%>(): Observable<<%className%>[]> {
+     *   return this.http.get<<%className%>[]>('someUrl');
+     * }
+     */
+}
